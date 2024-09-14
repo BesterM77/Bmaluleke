@@ -1,0 +1,54 @@
+.profile-card {
+  background-color: #313131;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.header {
+  position: relative; /* Allows positioning of children relative to this container */
+  display: flex;
+  justify-content: space-between; /* Space between logo and menu button */
+  align-items: center; /* Center items vertically */
+  padding-bottom: 20px; /* Space below header */
+  margin-bottom: 80px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.menu-button {
+  background: transparent; /* Transparent background */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Pointer cursor for clickable button */
+  padding: 0;
+}
+
+.menu-line {
+  width: 30px; /* Width of the lines */
+  height: 3px; /* Thickness of the lines */
+  background-color: white; /* Line color */
+  margin: 5px 0; /* Space between lines */
+}
+
+.profile-image {
+  width: 150px;
+  height: 200px;
+  border-radius: 500px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.symbol {
+  font-size: 20px;
+  margin-bottom: 2px;
+  margin-top: 50px;
+}
+
+.footer-message {
+}

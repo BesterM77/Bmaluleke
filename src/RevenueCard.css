@@ -1,0 +1,88 @@
+.revenue-card {
+  background-color: #ce8272d5;
+  padding: 20px;
+  color: #080808;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.header {
+  position: relative; /* Allows positioning of children relative to this container */
+  display: flex;
+  justify-content: space-between; /* Space between logo and menu button */
+  align-items: center; /* Center items vertically */
+  padding-bottom: 20px; /* Space below header */
+  margin-bottom: 60px;
+  color: black;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.menu-button {
+  background: transparent; /* Transparent background */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Pointer cursor for clickable button */
+  padding: 0;
+}
+
+.menu-lin {
+  width: 30px; /* Width of the lines */
+  height: 3px; /* Thickness of the lines */
+  background-color: black; /* Line color */
+  margin: 5px 0; /* Space between lines */
+}
+
+.title {
+  font-size: 15px;
+  background-color: #000;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.revenue {
+  font-size: 60px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-chart {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.bar {
+  width: 100px;
+  margin: 0px 0;
+}
+
+.bar.up {
+  background-color: #f17a0a;
+}
+
+.bar.down {
+  background-color: #0f0e0e;
+}
+
+.value1 {
+  margin-top: 95px;
+}
+.value2 {
+  margin-top: 170px;
+  margin-left: -20px;
+}

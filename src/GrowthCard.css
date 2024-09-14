@@ -1,0 +1,78 @@
+.growth-card {
+  background-color: #1cb08f;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.head {
+  position: relative; /* Allows positioning of children relative to this container */
+  display: flex;
+  justify-content: space-between; /* Space between logo and menu button */
+  align-items: center; /* Center items vertically */
+  padding-bottom: 10px; /* Space below header */
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.menu-button {
+  background: transparent; /* Transparent background */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Pointer cursor for clickable button */
+  padding: 0;
+}
+
+.menu {
+  width: 30px; /* Width of the lines */
+  height: 3px; /* Thickness of the lines */
+  background-color: black; /* Line color */
+  margin: 5px 0; /* Space between lines */
+}
+
+.slogan {
+  text-align: left;
+  color: black;
+}
+.slogan h1,
+.slogan h2,
+.slogan h3 {
+  margin: 0;
+  padding: 0;
+}
+.slogan h1 {
+  margin-bottom: 5px; /* Adjust spacing between h1 and h2 */
+}
+.slogan h2 {
+  margin-bottom: 5px; /* Adjust spacing between h2 and h3 */
+}
+.slogan h3 {
+  margin-bottom: 0; /* No margin below h3 */
+}
+
+.row-text {
+  display: flex; /* Use flexbox to align items in a row */
+  align-items: left; /* Align items vertically center */
+  gap: 20px; /* Add space between image and text */
+  margin-top: 30px;
+}
+.sig {
+  width: 150px; /* Set image width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.text {
+  max-width: 400px; /* Limit the text width */
+  color: black;
+}
+
+.growth-value {
+  background-color: #000;
+  color: #1cb08f;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
